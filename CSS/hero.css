@@ -16,6 +16,7 @@ h1, h2{
 	font-family: 'Lilita One', cursive;
 }
 
+/* header styles */
 header h1{
 	color: #4E4643;
 	font-size: 50px;
@@ -27,6 +28,7 @@ header img{
 	border: 10px solid #4E4643;
 }
 
+/* main element styles */
 main{
 	max-width: 800px;
 	margin: 0 auto;
@@ -50,6 +52,7 @@ a:hover{
 	color: #0DB2DA;
 }
 
+/* footer styles*/
 footer{
 	background-color: #E2E5F4;
 	text-align: center;
