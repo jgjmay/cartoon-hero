@@ -1,0 +1,28 @@
+header{
+	background-color: #E2E5F4;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+
+
+header img{
+	border-radius: 160px;
+	width: 300px;
+	border: 10px solid #4E4643;
+}
+
+/* main element styles */
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+

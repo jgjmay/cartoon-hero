@@ -6,37 +6,70 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/hero.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
 </head>
 <body>
-	<!-- header element -->
-	<header>
-		<img src="img/mike-avatar.jpg">
-		<h1>MIKE WAZOWSKI</h1>
+	<!-- navigation element -->
+	<nav>
+		<ul class="navigation">
+			<li><a class="cta-alt" href="#about">about</li></a> 
+			<li><a class="cta-alt" href="#characteristics">characteristics</li></a>
+			<li><a class="cta-alt" href="#friends">friends</li></a>
+		</ul>
+	</nav>
+
+	<!-- left column -->
+	<header class="row">
+		<div class="mike-avatar">
+			<img src="img/mike-avatar.jpg">
+	<!-- right column -->
+			<h1>HELLO, I'M<br>
+			MIKE WAZOWSKI
+			</h1>
+		</div>
 	</header>
 
 	<!-- main element -->
 	<main>
-		<h2>ABOUT</h2>
-		<p>Michael "Mike" Wazowski is one of the two main characters in Monsters, Inc. He is a station runner and coach on the scare floor, and his nickname is Googley Bear.</p>
-		<img src="img/mike-about.jpg">
+		<div class="about" id="about">
+			<h2>ABOUT</h2>
+			<p>Michael "Mike" Wazowski is one of the two main characters in Monsters, Inc. He is a station runner and coach on the scare floor, and his nickname is Googley Bear.</p>
+			<img src="img/mike-about.jpg">
+		</div>
 
 		<!-- characteristics -->
-		<p class="caption">Mike being funny</p>
-		<h2>CHARACTERISTICS</h2>
-		<ol>
-			<li>He is a short, lime green monster.</li>
-			<li>He has a single big eyeball and skinny limbs.</li>
-			<li>He has a goofy, caring and loyal personality.</li>
-		</ol>
+		<div class="characteristics" id="characteristics">
+			<h2>CHARACTERISTICS</h2>
+			<ol>
+				<li>He is a short, lime green monster.</li>
+				<li>He has a single big eyeball and skinny limbs.</li>
+				<li>He has a goofy, caring and loyal personality.</li>
+			</ol>
+		</div>
 
 		<!-- friends -->
-		<h2>FRIENDS</h2>
-		<p>Mike has some awesome friends. His best friend is Sulley. Click on the links below to read more about them!</p>
-		<ul>
+		<div class="friends" id="friends">
+			<h2>FRIENDS</h2>
+			<p>Mike has some awesome friends. His best friend is Sulley. Click on the links below to read more about them!</p>
+			<!-- Sulley -->
+			<h3>SULLEY</h3>
+			<img src="img/sulley.png" width="250">
+			<p>Sulley is Mike's best friend.</p>
 			<li><a href="https://disney.fandom.com/wiki/James_P._Sullivan" target="_blank">Sulley</a></li>
+		
+			
+			<!-- Boo -->
+			<h3>BOO</h3>
+			<img src="img/boo.png" width="250">
+			<p>Boo is a cute girl.</p>
 			<li><a href="https://disney.fandom.com/wiki/Boo" target="_blank">Boo</a></li>
+				
+			<!-- Celia Mae -->
+			<h3>CELIA MAE</h3>
+			<img src="img/celia-mae.jpg" width="250">
+			<p>Celia Mae is Mike's girlfriend.</p>
 			<li><a href="https://disney.fandom.com/wiki/Celia_Mae" target="_blank">Celia Mae</a></li>
-		</ul>
+		</div>
 	</main>
 
 	<!-- footer element -->

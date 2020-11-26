@@ -7,12 +7,13 @@ body{
 
 header{
 	background-color: #E2E5F4;
-	text-align: center;
+	text-align: left;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	line-height: 60px;
 }
 
-h1, h2{
+h1, h2, h3{
 	font-family: 'Lilita One', cursive;
 }
 
@@ -30,7 +31,7 @@ header img{
 
 /* main element styles */
 main{
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -43,6 +44,11 @@ h2{
 	font-size: 30px;
 	color: #4E4643;
 	margin: 40px 0 10px;
+}
+
+h3{
+	font-size: 20px;
+	color: #518858;
 }
 
 a{
@@ -75,4 +81,18 @@ p.caption{
 	color: #999999;
 	font-style: italic;
 	margin-top: 0;
+}
+
+.right-col{
+	background-color: #ABCF53;
+}
+
+/* navigation element */
+.navigation{
+	text-align: center;
+}
+
+.navigation li{
+	display: inline-block;
+	margin: 0 20px;
 }
